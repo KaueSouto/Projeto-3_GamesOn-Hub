@@ -1,0 +1,67 @@
+body {
+    font-family: "roboto", sans-serif;
+}
+
+.navbar {
+    background-color: rgb(3, 0, 27);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-biblioteca .nav-link.active:hover {
+    color: rgb(151, 16, 6);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(151, 16, 6);
+    color: rgb(3, 0, 27);
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.carousel {
+    max-height: 700px;
+    overflow-y: hidden;
+}
+
+.navbar-toggler {
+    background-color: rgb(151, 16, 6);
+}
+
+.section-title {
+    font-family: "Rowdies", sans-serif;
+}
+
+
+.text-colored {
+    color: rgb(151, 16, 6);
+}
+
+.nav-biblioteca .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(3, 0, 27);
+    color: rgb(151, 16, 6);
+}
+
+#catalago a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-biblioteca .nav-link:hover {
+    color: rgb(3, 0, 27);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
